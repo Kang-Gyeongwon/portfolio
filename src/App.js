@@ -1,6 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
+import Contact from "./components/contact";
 import Home from "./components/Home";
 import Introduction from "./components/Introduction";
+import Portfolios from "./components/Portfolio/Portfolios";
 import Top from "./components/Scroll_Top";
 
 const App = () => {
@@ -8,7 +10,8 @@ const App = () => {
     <Home />
     <Top />
     <Introduction />
-    <div style={{width: 100, height: 100}}>asfdkljasd</div>
+    <Portfolios />
+    <Contact />
   </BrowserRouter>
 }
 

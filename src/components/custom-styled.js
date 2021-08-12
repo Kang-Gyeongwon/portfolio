@@ -35,7 +35,7 @@ export const TextE = styled.p`
   text-align: center;
 `
 export const Content = styled.div`
-  width: 100%;
+  width: 100%; height: 100%;
   display: flex; justify-content: center; aline-items: center;
   box-sizing: border-box; padding: 0; margin: 0;
   flex-wrap: wrap;
