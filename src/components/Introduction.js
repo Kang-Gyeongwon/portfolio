@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { Content, TextE, TextK } from './custom-styled';
 import photo from './images/Photo.jpg'
@@ -55,8 +56,12 @@ const IntorText = styled.p`
   }
 `
 
-const Introduction = () => {
-  return <Content>
+const Introduction = (props) => {
+  const onTop = useRef();
+  useEffect(() => {
+    props.updateAbout(onTop.current.offsetTop)
+  }, [])
+  return <Content ref={onTop}>
     <ContentBox style={{ width: "100%" }}>
       <TextE style={{ color: "#CD5555", fontSize: 25, paddingBottom: "1%" }}>About Me</TextE>
       <TextK style={{ fontSize: 18 }}>저를 소개합니다</TextK>

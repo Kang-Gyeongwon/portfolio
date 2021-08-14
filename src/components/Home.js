@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 import { TextE, TextK } from './custom-styled';
 import main from './images/main.jpg'
 import instagram from './images/instagram.png'
