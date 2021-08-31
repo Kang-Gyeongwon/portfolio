@@ -21,11 +21,11 @@ export const portContent = [
     subTitle: "#React #styled-components #React-Hook #React-Router #반응형 웹",
     description: "React-Router, Modal 페이지를 학습하기 위해 만들게 된 반응형 웹 영화 소개 페이지 입니다."
   }, {
-    linkPath: "",
-    path: "",
-    imagePath: "",
+    linkPath: "/Movie__App",
+    path: "https://Kang-Gyeongwon.github.io/movie_app_2021",
+    imagePath: "/images/movieApp2021.PNG",
     title: "Movie App",
-    subTitle: "#",
-    description: ""
+    subTitle: "#React #React-Router",
+    description: "React, API, React-Router를 학습하기 위해서 만든 영화 웹입니다."
   }
 ]
